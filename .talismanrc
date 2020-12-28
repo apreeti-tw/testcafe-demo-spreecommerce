@@ -1,0 +1,11 @@
+fileignoreconfig:
+- filename: package-lock.json
+  checksum: b3f226fdb8ab9515de25f4971762e3fb12e1ffa672c32bb9a4f3c99ce9e24d2b
+  ignore_detectors: []
+- filename: data/UserData.js
+  checksum: a1020129f79a0cd2f6ec7ee1d5c482d63d618a5fd65d5cf5ed6fa31a4492fcd3
+  ignore_detectors: []
+- filename: page-objects/pages/LoginPage.js
+  checksum: 9d8696c7478e74ef5489bedbef1f8a46e5650539805493175c0e7878fba227b1
+  ignore_detectors: []
+scopeconfig: []

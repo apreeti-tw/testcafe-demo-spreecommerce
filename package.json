@@ -1,0 +1,27 @@
+{
+  "name": "testcafe-demo-spree-commerce",
+  "version": "1.0.0",
+  "description": "Web automation testing with TestCafe",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "testcafe chrome ./tests",
+    "test:chrome:headless": "testcafe chrome:headless ./tests --skip-js-errors -s path=./artifacts/screenshots,takeOnFails=true",
+    "test:runner": "node testcafeRunner.js"
+  },
+  "keywords": [
+    "TestCafe",
+    "Testing",
+    "Automation"
+  ],
+  "author": "apreeti-tw",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^1.10.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.11.0",
+    "@typescript-eslint/parser": "^4.11.0",
+    "eslint": "^7.16.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
